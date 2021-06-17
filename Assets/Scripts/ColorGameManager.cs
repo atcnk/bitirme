@@ -30,10 +30,10 @@ public class ColorGameManager : MonoBehaviour
     private GameObject greenBallPrefab, orangeBallPrefab, purpleBallPrefab;
     public string resultColor;
     private Vector3 yellowPos, bluePos, redPos;
-    public Vector3 purpleSpawn=new Vector3(-7,0,0), orangeSpawn=new Vector3(7,0,0);
+    private Vector3 purpleSpawn=new Vector3(3.85f,2.42f,0), orangeSpawn=new Vector3(4.06f,1.24f,0), greenSpawn = new Vector3(4.82f, 0.27f, 0);
     [SerializeField]
     private GameObject yellowBall, blueBall, redBall;
-    private bool orangeSpawned = false, greenSpawned = false, purpleSpawned = false;
+    public bool orangeSpawned = false, greenSpawned = false, purpleSpawned = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -79,7 +79,8 @@ public class ColorGameManager : MonoBehaviour
             case "purple":
                 if (!purpleSpawned)
                 {
-                    Instantiate(purpleBallPrefab, Vector3.zero, Quaternion.identity);
+                    Instantiate(purpleBallPrefab, greenSpawn, Quaternion.identity);
+                    Debug.Log(greenSpawn);
                     SetBallPos();
                     purpleSpawned = true;
                 }
