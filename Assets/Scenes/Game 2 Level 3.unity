@@ -5412,7 +5412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1485bb288ff7c7b4b9137bd7996e1622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Main Menu
+  nextSceneName: Game 3 Level 1
   gameOver: 0
   winTextObject: {fileID: 8475497}
 --- !u!136 &1799670054

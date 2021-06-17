@@ -4,18 +4,18 @@ using System.Collections;
 
 public class ChangeScene : MonoBehaviour
 {
-    private string sceneName;
+    private string nextSceneName;
 
-    public void GotoScene(string name)
+    public void GotoScene(string name, int seconds)
     {
-        sceneName = name;
-        StartCoroutine(Timer());
-        SceneManager.LoadScene(sceneName);
+        nextSceneName = name;
+        StartCoroutine(Timer(seconds));    
     }
 
-    IEnumerator Timer()
+    IEnumerator Timer(int secValue)
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(secValue);
+        SceneManager.LoadScene(nextSceneName);
     }
 
 }

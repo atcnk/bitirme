@@ -5,16 +5,17 @@ using UnityEngine.SceneManagement;
 public class Telescope : MonoBehaviour
 {
     public Button btnTelescope;
-    private ChangeScene changeSceneScript;
+    private ChangeScene scriptChangeScene;
 
     void Start()
     {
+        scriptChangeScene = GameObject.Find("Scene Manager").GetComponent<ChangeScene>();
         btnTelescope.onClick.AddListener(TaskOnClick);
     }
 
     void TaskOnClick()
     {
-        SceneManager.LoadScene("Game 2 Level 1");
+        scriptChangeScene.GotoScene("Game 2 Level 1", 3);
     }
   
 }

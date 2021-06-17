@@ -3,7 +3,7 @@ using System.Linq;
 
 public class ReflectionLine : MonoBehaviour
 {
-    public string sceneName;
+    public string nextSceneName;
     public bool gameOver = false;
 
     public GameObject winTextObject;
@@ -88,7 +88,7 @@ public class ReflectionLine : MonoBehaviour
                 //targetMat.SetColor("_EmissionColor", Color.yellow);
                 gameOver = true;
                 winTextObject.SetActive(true);
-                changeSceneScript.GotoScene(sceneName);
+                changeSceneScript.GotoScene(nextSceneName, 5);
             }
 
         }

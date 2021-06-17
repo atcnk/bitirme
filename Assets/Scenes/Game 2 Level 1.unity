@@ -1847,7 +1847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1485bb288ff7c7b4b9137bd7996e1622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Game 2 Level 2
+  nextSceneName: Game 2 Level 2
   gameOver: 0
   winTextObject: {fileID: 1853256407}
 --- !u!1001 &1461793622

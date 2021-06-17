@@ -84,7 +84,7 @@ public class Game2Camera : MonoBehaviour
 
             if (reflectionLineScript.gameOver)
             {
-                speedChange = slowSpeed;
+                speedChange = fastSpeed;
                 sizeChange = farSize;
                 camChangeX.x = normalCamX;
             }
@@ -110,7 +110,7 @@ public class Game2Camera : MonoBehaviour
 
             if (reflectionLineScript.gameOver)
             {
-                speedChange = slowSpeed;
+                speedChange = fastSpeed;
                 sizeChange = farSize;
                 camChangeX.x = normalCamX;
             }

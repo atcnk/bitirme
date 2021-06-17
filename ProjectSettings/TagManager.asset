@@ -6,26 +6,10 @@ TagManager:
   tags:
   - Obstacle
   - Reflector
-  - Ref80
-  - Ref84
-  - Ref97
-  - Ref106
-  - Ref131
-  - Ref33
-  - RefGame1
-  - RefGame2
-  - Ref26
-  - Ref27
-  - Ref20
-  - Ref43
-  - Ref49
-  - Ref110
-  - Ref86
-  - Ref62
-  - RefGame3
-  - Ref149
-  - Ref34
-  - Ref24
+  - BlueBall
+  - GreenBall
+  - YesilBall
+  - SpaceObstacle
   layers:
   - Default
   - TransparentFX

@@ -54,7 +54,7 @@ public class Rotate : MonoBehaviour
         if (!reflectionLineScript.gameOver && !rightAngle && previousMirrorScript.canNextRotate)
         {
             rotation += speed;
-
+            
             rotation = Mathf.Round(rotation * 10f) / 10f;
             rotation = Mathf.Clamp(rotation, clampMin, clampMax);
 
