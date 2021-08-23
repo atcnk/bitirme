@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7112109829924997885}
   m_Layer: 0
   m_Name: yellowSphere
-  m_TagString: GreenBall
+  m_TagString: Sun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

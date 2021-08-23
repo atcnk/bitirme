@@ -10,6 +10,34 @@ TagManager:
   - GreenBall
   - YesilBall
   - SpaceObstacle
+  - Ref106
+  - Eben
+  - Mirror
+  - Moon
+  - Earth
+  - Cilek
+  - Gunes
+  - Deniz
+  - OrangeBall
+  - PurpleBall
+  - RedBall
+  - Color
+  - Mor
+  - Portakal
+  - Cimen
+  - Apple
+  - Sun
+  - River
+  - Grass
+  - Flower
+  - Orange
+  - Red Ball
+  - Yellow Ball
+  - Blue Ball
+  - Green Ball
+  - Orange Ball
+  - Purple Ball
+  - Picker
   layers:
   - Default
   - TransparentFX

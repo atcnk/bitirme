@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 811484852229611522}
   - component: {fileID: 811484852229611523}
   - component: {fileID: 811484852229611525}
-  - component: {fileID: -4372712928584173573}
   - component: {fileID: -2762967274114107925}
   m_Layer: 0
   m_Name: Mirror
@@ -98,26 +97,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.1337855, y: 0.18351686, z: 0.2}
   m_Center: {x: -0.19561589, y: -0.13550955, z: 0}
---- !u!114 &-4372712928584173573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811484852229611520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8353a546e1c4a7e408af9a4af40e3ba5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotation: 0
-  angle: 0
-  clampMin: 0
-  clampMax: 0
-  previousMirrorName: 
-  nextMirrorName: 
-  canNextRotate: 0
-  rightAngle: 0
 --- !u!82 &-2762967274114107925
 AudioSource:
   m_ObjectHideFlags: 0

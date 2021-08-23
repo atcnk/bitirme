@@ -6,27 +6,48 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
+    path: Assets/Scenes/UI/UI Main Menu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Game 2 Level 0.unity
+    path: Assets/Scenes/UI/UI Settings.unity
+    guid: 1b66888002b33844eb0df750718c5b77
+  - enabled: 1
+    path: Assets/Scenes/UI/UI Game Menu.unity
+    guid: 09472d87b808cc047bbe9cf7822b0576
+  - enabled: 1
+    path: Assets/Scenes/Color/Color Animation.unity
+    guid: c24fd12a41d279145bec84635df43888
+  - enabled: 1
+    path: Assets/Scenes/Color/Color Game Level 1.unity
+    guid: bd2c1a0f32d79f642bf49be53d8994a9
+  - enabled: 1
+    path: Assets/Scenes/Color/Color Game Level 2.unity
+    guid: ee612d29578a8e940bca1f6e46835212
+  - enabled: 1
+    path: Assets/Scenes/Color/Color Game Level 3 AR.unity
+    guid: fa6b88927ef09a647a63f8a95c8462cb
+  - enabled: 1
+    path: Assets/Scenes/Telescope/Telescope Animation.unity
+    guid: 2ce129b3cee20c14fa35fc65b1e29292
+  - enabled: 1
+    path: Assets/Scenes/Telescope/Telescope Game Level 0 Room.unity
     guid: 135ae58463924ac4392a43961512fa63
   - enabled: 1
-    path: Assets/Scenes/Game 2 Level 1.unity
+    path: Assets/Scenes/Telescope/Telescope Game Level 1.unity
     guid: c879268632c7ab14d9414b8692767575
   - enabled: 1
-    path: Assets/Scenes/Game 2 Level 2.unity
+    path: Assets/Scenes/Telescope/Telescope Game Level 2.unity
     guid: 43d3131db8432f6428efe10d21d634e3
   - enabled: 1
-    path: Assets/Scenes/Game 2 Level 3.unity
+    path: Assets/Scenes/Telescope/Telescope Game Level 3.unity
     guid: 16272b2ff6709234e97366fd7d14a0dc
   - enabled: 1
-    path: Assets/Scenes/Game 3 Level 1.unity
+    path: Assets/Scenes/Gravity/Gravity Animation.unity
+    guid: cd7cc58709ca09a4e9b654f60c516116
+  - enabled: 1
+    path: Assets/Scenes/Gravity/Gravity Game Level 1.unity
     guid: fd79b8e5b288c984fabfa61d79b5e3ef
   - enabled: 1
-    path: Assets/Scenes/Game 3 Level 2.unity
+    path: Assets/Scenes/Gravity/Gravity Game Level 2.unity
     guid: 828afee8fbf07604f97fd5ba3b03df64
-  - enabled: 1
-    path: Assets/Scenes/End Game.unity
-    guid: 6d70c2919ce089d4fad10d9ad0c3add4
   m_configObjects: {}
